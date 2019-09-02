@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2,
+
+  "name": "Endgame Spoiler Blocker",
+  "description": "This extension indescriminately blocks all mentions of Endgame characters and plotlines in an attempt to not have my life ruined.",
+  "version": "0.1",
+  "author": "Shristika Yadav",
+
+  "browser_action": {
+    "default_icon": {
+      "48" : "images/icon48.png"
+    }
+  },
+  "permissions": [
+    "activeTab"
+   ],
+  "background": {
+    "scripts": ["startup.js"],
+    "persistent": false
+  }
+}
