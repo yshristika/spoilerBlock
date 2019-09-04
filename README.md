@@ -15,7 +15,13 @@ The function of this Chrome extension is to block any content of the movie or sh
 - Write ajax code to connect the javascript to call the webserver.
 
 ## Installation
+- Download the files.
+- Click on 
 chrome://extensions/
+- Enable the Developer Mode on the right top corner and click on Load unpacked on left hand corner.
+- Select the downloaded folder and click OK.
+- An extension will be added.
+
 ### Project make use of - 
 - Wikipedia API
 - Flask to create web srver
