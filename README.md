@@ -16,8 +16,8 @@ The function of this Chrome extension is to block any content of the movie or sh
   - getData.py
 
 ## Work to be done 
-- Run the webserver when user clicks on the extension. 
-- Write ajax code to connect the javascript to call the webserver.
+- Create an AWS EC2 instance and run the server on it.  
+- Use API call in javascript code to connect connect the user to the webserver.
 - Create an html pop-up on clicking the extension which will take the input from user.
 
 ## Installation
@@ -30,7 +30,7 @@ chrome://extensions/
 
 ## Project make use of - 
 - Wikipedia API
-- Flask to create web srver
+- Flask to create web server
 - Python for NLP processing
 - Javascript for creating extension
 - HTML for the pop-up on clicking the extension button.
