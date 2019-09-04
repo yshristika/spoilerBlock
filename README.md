@@ -3,11 +3,11 @@ The function of this Chrome extension is to block any content of the movie or sh
 ## Work Done until now
 - Created an extension with static keywords to find a movie or a show and block the content of it. 
 - Created a python script to 
-        - find a  wikipedia page of the show/movie given by the user using a Wikipedia API. 
-        - Clean the data
-        - Run TF-IDF to find the important keywords in the web page.
-        - Sort the words according to their TF-IDF.
-        - Return top 10 words.
+  - find a  wikipedia page of the show/movie given by the user using a Wikipedia API. 
+  - Clean the data
+  - Run TF-IDF to find the important keywords in the web page.
+  - Sort the words according to their TF-IDF.
+  - Return top 10 words.
 - Created a web server using Flask. Web server will run the python script whenever called.
 
 ## Work to be done 
