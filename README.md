@@ -14,9 +14,11 @@ The function of this Chrome extension is to block any content of the movie or sh
   - Return top 10 words.
 - Created a web server using Flask. Web server will run the python script whenever called.
   - getData.py
+- Launched Flask application on EC2 instance - 
+  - Creating an AWS EC2 instance under the free tier
+  - Deploying demon process(flask application) on EC2 instance
 
 ## Work to be done 
-- Create an AWS EC2 instance and run the server on it.  
 - Use API call in javascript code to connect connect the user to the webserver.
 - Create an html pop-up on clicking the extension which will take the input from user.
 
